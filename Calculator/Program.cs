@@ -12,6 +12,9 @@ namespace Calculator
             double addResult = calculate.Add(10, 7);
             calculate.DisplayResults(addResult);
 
+            double multipicationResult = calculate.Multipilation(10, 7);
+            calculate.DisplayResults(multipicationResult);
+
             Console.ReadLine();
         }
     }
