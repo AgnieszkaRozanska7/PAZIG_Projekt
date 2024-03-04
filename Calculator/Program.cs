@@ -12,6 +12,10 @@ namespace Calculator
             double addResult = calculate.Add(10, 7);
             calculate.DisplayResults(addResult);
 
+
+            double secondResult = calculate.Minus(10, 7);
+            calculate.DisplayResults(secondResult);
+
             Console.ReadLine();
         }
     }

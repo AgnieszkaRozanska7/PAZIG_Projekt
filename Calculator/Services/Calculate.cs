@@ -14,5 +14,10 @@ namespace Calculator.Services
         {
            Console.WriteLine($"Result: {result}");
         }
+
+        public double Minus(double firstNumber, double secondNumber)
+        {
+            return firstNumber - secondNumber;
+        }
     }
 }

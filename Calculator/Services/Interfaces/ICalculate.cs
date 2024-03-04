@@ -5,5 +5,7 @@
         void DisplayResults(double result);
 
         double Add(double firstNumber, double secondNumber);
+
+        double Minus(double firstNumber, double secondNumber);
     }
 }
