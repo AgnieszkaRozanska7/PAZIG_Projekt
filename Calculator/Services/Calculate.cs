@@ -19,5 +19,10 @@ namespace Calculator.Services
         {
             return firstNumber - secondNumber;
         }
+
+        public double Multipilation(double firstNumber, double secondNumber)
+        {
+            return firstNumber * secondNumber;
+        }
     }
 }

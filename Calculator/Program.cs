@@ -16,6 +16,9 @@ namespace Calculator
             double secondResult = calculate.Minus(10, 7);
             calculate.DisplayResults(secondResult);
 
+            double multipicationResult = calculate.Multipilation(10, 7);
+            calculate.DisplayResults(multipicationResult);
+
             Console.ReadLine();
         }
     }
