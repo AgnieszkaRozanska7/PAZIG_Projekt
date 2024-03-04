@@ -2,6 +2,8 @@
 {
     internal interface ICalculate
     {
+        void DisplayResults(double result);
+
         double Add(double firstNumber, double secondNumber);
     }
 }
